@@ -26,6 +26,27 @@ public class Main {
 
         //step 8 back to scopecheck to create a new method
 
+        //step 9
+        scopeInstance.timesTwo();
+        //step 10 run
+        /*
+        result;
+        0 times two is 0
+        1 times two is 2
+        2 times two is 4
+        3 times two is 6
+        4 times two is 8
+        5 times two is 10
+        6 times two is 12
+        7 times two is 14
+        8 times two is 16
+        9 times two is 18
+         */
+        //int privateVar = 2; is used from inside method and
+        //is used before value in class
+
+        //step 11 back to scopecheck
+
     }
 
 }

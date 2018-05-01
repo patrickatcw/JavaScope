@@ -31,8 +31,8 @@ public class ScopeCheck {
     public void timesTwo() {
         int privateVar = 2;
         for (int i = 0; i < 10; i++) {
-            /*System.out.println(i + " times two is " +
-                    i * privateVar);*/   //*if i wanted to use private int privateVar = 1; this.privateVar
+            System.out.println(i + " times two is " +
+                    i * privateVar);   //*if i wanted to use private int privateVar = 1; this.privateVar
 
             //step 9 back to main
         }
