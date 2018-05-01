@@ -7,7 +7,7 @@ being invoked. this keyword can be used to refer any member of current object fr
 within an instance method or a constructor
  */
 
-//step 1 made this method
+//step 1 made this class
 public class ScopeCheck {
 
     //step 2 create variables
