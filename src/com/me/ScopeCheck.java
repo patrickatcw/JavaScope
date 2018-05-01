@@ -36,6 +36,29 @@ public class ScopeCheck {
 
             //step 9 back to main
         }
+
+    }
+
+    //step 11 new class, inside class
+    public class InnerClass {
+
+        //step 12 variable
+        public int privateVar = 3; //if this was not here, program would find private int privateVar = 1;
+
+        //step 13 constructor
+        public InnerClass() {
+            System.out.println("InnereClass created, privateVar is " + privateVar);
+        }
+
+        //step 14 method from step 8, now in Innerclass, comment out sout in method above
+        public void timesTwo() {
+            for (int i = 0; i < 10; i++) {
+                System.out.println(i + " times two is " +
+                        i * privateVar);
+
+                //step 15 back to main to create an instance for Innerclass
+            }
+        }
     }
 
 }
