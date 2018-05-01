@@ -47,6 +47,42 @@ public class Main {
 
         //step 11 back to scopecheck
 
+        System.out.println("-------------------------------");
+        //step 15 instance for inner class
+        ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
+        //step 16 call method
+        innerClass.timesTwo();
+        //step 17 run
+
     }
 
 }
+
+/*
+final results;
+ScopeCheck created, publicVar = 0: privateVar = 1
+scopeInstance privateVar is 1
+this is private to main()
+0 times two is 0
+1 times two is 2
+2 times two is 4
+3 times two is 6
+4 times two is 8
+5 times two is 10
+6 times two is 12
+7 times two is 14
+8 times two is 16
+9 times two is 18
+-------------------------------
+InnereClass created, privateVar is 3
+0 times two is 0
+1 times two is 3
+2 times two is 6
+3 times two is 9
+4 times two is 12
+5 times two is 15
+6 times two is 18
+7 times two is 21
+8 times two is 24
+9 times two is 27
+ */
